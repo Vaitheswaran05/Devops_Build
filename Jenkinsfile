@@ -5,7 +5,7 @@ pipeline {
     DOCKER_CREDS = 'Doc_hub'          
     EC2_SSH_CRED = 'ec2_user'          
     EC2_USER = 'ubuntu'
-    EC2_HOST = '13.203.76.212'       
+    EC2_HOST = '65.2.78.180'       
     DEV_IMAGE = 'vaith/dev:latest'
     PROD_IMAGE = 'vaith/prod:latest'
   }
