@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKER_CREDS = 'Doc_hub'          // your Jenkins credential ID for Docker Hub
-    EC2_SSH_CRED = 'ec2-user'          // Jenkins SSH credential ID (private key)
+    EC2_SSH_CRED = 'ec2_user'          // Jenkins SSH credential ID (private key)
     EC2_USER = 'ubuntu'
     EC2_HOST = '13.203.76.212'        // your EC2 public IP (replace if different)
     DEV_IMAGE = 'vaith/dev:latest'
