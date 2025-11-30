@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_CREDS = 'dockerhub-creds'
+        DOCKER_CREDS = 'Doc_hub'
     }
 
     stages {
