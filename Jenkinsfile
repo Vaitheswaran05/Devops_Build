@@ -3,8 +3,8 @@ pipeline {
   environment {
     DOCKER_USER = 'vaith'
     DH_CRED = 'docker-hub-credentials'
-    EC2_CRED = 'ec2-ssh'
-    EC2_HOST = '<EC2_PUBLIC_IP>'  //fill this later
+    EC2_CRED = 'ec2-user'
+    EC2_HOST = '<13.203.76.212>'  
   }
   stages {
 
